@@ -1,0 +1,92 @@
+
+body {
+    font-family: Verdana;
+    text-align: center;
+}
+
+header {
+    background-image: url("../../recources/img/the-flatiron-building.png");
+    background-position:center;
+    background-size: cover;
+    min-height: 297px;
+}
+
+/* -------------------------------- START HEADER --------------------------- */
+
+.brand {
+    color: white;
+    font-size: 4em;
+}
+
+header nav ul {
+    padding: 0;
+}
+
+header nav ul li {
+    list-style-type: none;
+    padding-top: 18px;
+}
+
+
+header a {
+  /*text-decoration: none;
+    opacity:0.7;
+     */
+    color: white;
+    font-size: 1.1em;
+  /*font-weight: bold;
+    transition: opacity 0.5s, text-decoration 0.5s;
+    */
+}
+
+/*
+header a:hover {
+    opacity: 1;
+    text-decoration: underline;
+}
+*/
+
+/* -------------------------------- END HEADER --------------------------- */
+
+/* -------------------------------- START CONTENT --------------------------- */
+
+section div p {
+    font-size: 0.9em;
+}
+
+.slogan {
+    background-image: url("../../recources/img/the-flatiron-building.png");
+    background-size: cover;
+    font-size: 1.5em;
+    color:white;
+    font-weight: 600;
+}
+
+/* -------------------------------- END CONTENT --------------------------- */
+
+/* -------------------------------- START FOOTER --------------------------- */
+
+.footer-nav {
+    background: dimgrey;
+    text-align: left;
+}
+
+.footer-brand {
+    color: white;
+    font-size: 0.7em;
+    float: left;
+    margin: 0;
+    padding-top: 4px;
+}
+
+.footer-nav ul li {
+    list-style-type: none;
+    display: inline;
+}
+
+.footer-nav a {
+    color: white;
+    padding-left: 1px;
+}
+
+/* -------------------------------- END FOOTER --------------------------- */
